@@ -10,12 +10,10 @@ public class calculator {
         int num1=sc.nextInt();
 
         System.out.print("num2: ");
-        Scanner sc1=new Scanner(System.in);
-        int num2=sc1.nextInt();
+        int num2=sc.nextInt();
 
         System.out.print("Enter your choice(+,-,*,/,%): ");
-        Scanner sc2=new Scanner(System.in);
-        String ch=sc2.next();
+        String ch=sc.next();
         int i=0;
         switch(ch){
             case "+": System.out.println("Result: "+(num1+num2));
