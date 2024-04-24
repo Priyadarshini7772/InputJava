@@ -9,7 +9,8 @@ public class Input {
             String name=sc.next();
             System.out.println(name);
             System.out.print("Enter your full name: ");
-            String name1=sc.nextLine();
+            Scanner sc1 = new Scanner(System.in) ;
+            String name1=sc1.nextLine();
             System.out.println(name1);
         
     }
