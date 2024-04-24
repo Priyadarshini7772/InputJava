@@ -14,7 +14,6 @@ public class calculator {
         int num2=sc.nextInt();
 
         System.out.print("Enter your choice(+,-,*,/,%): ");
-       // Scanner sc2=new Scanner(System.in);
         String ch=sc.next();
         int i=0;
         switch(ch){
