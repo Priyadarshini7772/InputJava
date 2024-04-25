@@ -2,7 +2,6 @@ package InputJava;
 
 import java.util.Arrays;
 
-import javax.sound.midi.Soundbank;
 
 public class ArraysImplem {
     public static void main(String[] args) {
